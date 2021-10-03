@@ -2,8 +2,10 @@ package edu.bsu.Model;
 
 import edu.bsu.View.UserInput;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 public class Layout {
     public void endResult() throws IOException {
@@ -21,6 +23,7 @@ public class Layout {
 
         System.out.println(result);
 
+        InputStream inputStreamRedirect = new ByteArrayInputStream(result.getBytes(StandardCharsets.UTF_8));
     }
 
 }
