@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 public class AccessWikipedia {
     public String makeURL(String articleSearch) {
         String urlFront = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=";
-        String urlEnd = "&redirects=";
+        String urlEnd = "&redirects";
         String urlFull;
         urlFull = urlFront + articleSearch + urlEnd;
         return urlFull;
