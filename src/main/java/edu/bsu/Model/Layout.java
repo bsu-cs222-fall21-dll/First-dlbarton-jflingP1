@@ -16,6 +16,7 @@ public class Layout {
         WikiRevFormatter wikiRevFormatter = new WikiRevFormatter();
         WikiRevisionParser wikiRevisionParser = new WikiRevisionParser();
         WikiNotFound wikiNotFound = new WikiNotFound();
+        WikiRedirect wikiRedirect = new WikiRedirect();
 
         String input = userInput.gainUserInput();
         String modifyString = urlModifier.modifyUserInput(input);
@@ -29,6 +30,8 @@ public class Layout {
         InputStream inputStreamRevisions = new ByteArrayInputStream(result.getBytes(StandardCharsets.UTF_8));
 
         wikiNotFound.noWikiArticleFound(inputStreamNotFound);
+
+        System.out.println(wikiRedirect.redirectChecker(inputStreamRedirect));
     }
 
 }
