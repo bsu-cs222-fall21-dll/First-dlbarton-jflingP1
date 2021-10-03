@@ -6,7 +6,7 @@ import net.minidev.json.JSONArray;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class WikiNoSearch {
+public class WikiNotFound {
     public void noWikiArticleFound(InputStream dataStream) throws IOException{
         try {
             JSONArray result = JsonPath.read(dataStream, "$..missing");

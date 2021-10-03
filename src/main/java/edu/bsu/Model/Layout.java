@@ -15,6 +15,7 @@ public class Layout {
         URLModifier urlModifier = new URLModifier();
         WikiRevFormatter wikiRevFormatter = new WikiRevFormatter();
         WikiRevisionParser wikiRevisionParser = new WikiRevisionParser();
+        WikiNotFound wikiNotFound = new WikiNotFound();
 
         String input = userInput.gainUserInput();
         String modifyString = urlModifier.modifyUserInput(input);
@@ -24,6 +25,10 @@ public class Layout {
         System.out.println(result);
 
         InputStream inputStreamRedirect = new ByteArrayInputStream(result.getBytes(StandardCharsets.UTF_8));
+        InputStream inputStreamNotFound = new ByteArrayInputStream(result.getBytes(StandardCharsets.UTF_8));
+        InputStream inputStreamRevisions = new ByteArrayInputStream(result.getBytes(StandardCharsets.UTF_8));
+
+        wikiNotFound.noWikiArticleFound(inputStreamNotFound);
     }
 
 }
