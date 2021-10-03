@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstProjectFS.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstProjectFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstProjectFS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstProjectFS.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstProjectFS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstProjectFS.test.iml" />
+    </modules>
+  </component>
+</project>
