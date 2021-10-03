@@ -32,6 +32,9 @@ public class Layout {
         wikiNotFound.noWikiArticleFound(inputStreamNotFound);
 
         System.out.println(wikiRedirect.redirectChecker(inputStreamRedirect));
+        String finalPrint = wikiRevFormatter.PrintFormatterArrayList(wikiRevisionParser.addRevisions(inputStreamRevisions));
+
+        System.out.println(finalPrint);
     }
 
 }
