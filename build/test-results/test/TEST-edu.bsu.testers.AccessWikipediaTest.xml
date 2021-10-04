@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.bsu.testers.AccessWikipediaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-04T21:27:42" hostname="DESKTOP-4NL8MDI" time="0.043">
+  <properties/>
+  <testcase name="testMakeUrl()" classname="edu.bsu.testers.AccessWikipediaTest" time="0.043"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
