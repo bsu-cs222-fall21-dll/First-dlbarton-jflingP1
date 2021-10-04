@@ -2,6 +2,7 @@ package edu.bsu.View;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -28,5 +29,12 @@ public class MainGUI extends Application {
         output.setMaxSize(500,500);
 
         parent.getChildren().add(urlInput);
+
+        Button search = new Button("Search");
+        search.setOnAction(event -> {
+
+            GUISearchButton guiSearchButton = new GUISearchButton;
+            UserInterface
+        }
     }
 }
