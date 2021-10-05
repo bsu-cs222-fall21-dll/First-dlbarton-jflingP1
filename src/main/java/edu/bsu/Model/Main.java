@@ -1,5 +1,7 @@
 package edu.bsu.Model;
 
+import edu.bsu.View.MainGUI;
+
 import java.io.IOException;
 
 public class Main {
