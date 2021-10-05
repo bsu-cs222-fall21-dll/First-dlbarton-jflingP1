@@ -33,8 +33,8 @@ public class MainGUI extends Application {
         Button search = new Button("Search");
         search.setOnAction(event -> {
 
-            GUISearchButton guiSearchButton = new GUISearchButton;
-            UserInterface
+            GUIButton guiSearchButton = new GUIButton;
+            UserInterface userInterface
         }
     }
 }
